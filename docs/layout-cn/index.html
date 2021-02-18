@@ -247,7 +247,7 @@
 <p>内置布局会对不存在的路由、无权访问的路由都会展示默认的 UI。无权访问如上所示。</p>
 <p>访问不存在的 UI 时，默认 UI 如下 <img src="https://gw.alipayobjects.com/mdn/rms_30ab81/afts/img/A*LOPuQoOGJIcAAAAAAAAAAABkARQnAQ" alt="404"></p>
 <h3 id="嵌套布局" style="position:relative;"><a href="#%E5%B5%8C%E5%A5%97%E5%B8%83%E5%B1%80" aria-label="嵌套布局 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>嵌套布局</h3>
-<p>有时我们的页面可能会有一些全局的通用的处理逻辑或者 UI，会希望在页面加在前完成，通常会希望可以在内置布局内部再包一层 layout 来完成需求。</p>
+<p>有时我们的页面可能会有一些全局的通用的处理逻辑或者 UI，会希望在页面加载前完成，通常会希望可以在内置布局内部再包一层 layout 来完成需求。</p>
 <div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// config/routes.ts</span>
 <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">[</span>
   <span class="token punctuation">{</span>
